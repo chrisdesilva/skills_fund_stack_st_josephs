@@ -143,7 +143,7 @@ export const programLoanInfo = [
   // update with program names and corresponding loan URLs with market segment code from Master Loan Parameters
   {
     name: "Web Development",
-    url: "https://my.skills.fund/application?lenderCode=LENDERCODE1",
+    url: "https://my.skills.fund/application?lenderCode=SFSESJCMWD20",
     loanInfo: {
       // match loanInfo in first metro below
       maxLoanAmt: 9495,
@@ -216,7 +216,7 @@ export const programLoanInfo = [
   },
   {
     name: "Data Science & Analytics",
-    url: "https://my.skills.fund/application?lenderCode=LENDERCODE2",
+    url: "https://my.skills.fund/application?lenderCode=SFSESJCMDSA20",
     loanInfo: {
       // match loanInfo in first metro below
       maxLoanAmt: 9495,
