@@ -1,4 +1,4 @@
-import logo from "../images/logo_fsu.png" // add school logo to images folder and import here
+import logo from "../images/logo_sjm.png" // add school logo to images folder and import here
 
 export const applicationsLive = true // set to false if not currently accepting applications
 export const disabledLoanAppFormID = "69140c47-bb03-4a1b-b674-cc136fdea23d" // Hubspot ID for all disabled apply now lead captures
@@ -18,16 +18,16 @@ export const schoolInfo = {
       // for multiple examples of interest only, add items to interestOnly array
       programName: "",
       APR36: "11.59%",
-      financeCharge36: "$2,489.27",
-      IOPayment36: "$78.62",
-      FullMonthlyPayment36: "$333.68",
+      financeCharge36: "$2,364.74",
+      IOPayment36: "$74.69",
+      FullMonthlyPayment36: "$316.99",
       APR60: "12.84%",
-      financeCharge60: "$4,269.42",
-      IOPayment60: "$96.11",
-      FullMonthlyPayment60: "$228.13",
-      LoanExampleAmt: "$10,000",
-      LoanExampleOFeeAmt: "$494.75",
-      LoanExampleAmtPlusOFee: "$10,494.75",
+      financeCharge60: "$4,055.85",
+      IOPayment60: "$91.31",
+      FullMonthlyPayment60: "$216.72",
+      LoanExampleAmt: "$9,495",
+      LoanExampleOFeeAmt: "$474.75",
+      LoanExampleAmtPlusOFee: "$9,969.75",
       programLength: "4", // program length in months
     },
   ],
@@ -41,9 +41,9 @@ export const schoolInfo = {
       APR60: "13.14%",
       financeCharge60: "$3,692.74",
       FullMonthlyPayment60: "$228.13",
-      LoanExampleAmt: "$10,000",
-      LoanExampleOFeeAmt: "$494.75",
-      LoanExampleAmtPlusOFee: "$10,494.75",
+      LoanExampleAmt: "$9,495",
+      LoanExampleOFeeAmt: "$474.75",
+      LoanExampleAmtPlusOFee: "$9,969.75",
     },
   ],
 }
@@ -63,31 +63,25 @@ export const faq = {
   origFee: 0.05,
 
   // interest payment FAQ info
-  exampleLoanAmount: "$10,000",
+  exampleLoanAmount: "$9,495",
   interestRate36: "8.99%",
   interestRate60: "10.99%",
   APR36: "11.59%",
   APR60: "12.84%",
-  IOPayment36: "$78.62",
-  IOPayment60: "$96.11",
+  IOPayment36: "$74.69",
+  IOPayment60: "$91.31",
 
   // max loan amounts by program for faq1
   loanRange: [
     {
       programName: "Web Development",
-      maxAmount: "$9,995",
+      maxAmount: "$9,495",
       col: false,
       colAmount: "$6,000",
     },
     {
       programName: "Data Science & Analytics",
-      maxAmount: "$9,995",
-      col: false,
-      colAmount: "$6,000",
-    },
-    {
-      programName: "Clinical Trial Management",
-      maxAmount: "$9,995",
+      maxAmount: "$9,495",
       col: false,
       colAmount: "$6,000",
     },
@@ -100,13 +94,13 @@ export const faq = {
 
 export const schoolLogo = logo // go to header.js if height needs adjustment
 
-export const schoolName = "Framingham State University"
+export const schoolName = "St. Joseph's College"
 
 export const schoolURL = "https://www.SCHOOLWEBSITE.com/" // update with url of school's website
 
-export const skfURL = "https://framinghamstate.skills.fund" // update with Skills Fund url
+export const skfURL = "https://stjosephs.skills.fund" // update with Skills Fund url
 
-export const headline = "Learn to Code at Framingham State University" // update headline as appropriate
+export const headline = "Learn to Code at St. Joseph's College" // update headline as appropriate
 
 export const leadContent = {
   header: "Your last step on the path toward changing your career",
@@ -120,25 +114,25 @@ export const threeStepCardText = {
   step2: {
     header: "select your program",
     text:
-      "Choose between the Web Development, Data Science & Analytics, and Clinical Trial Management programs.",
+      "Choose between the Web Development and Data Science & Analytics programs.",
   },
   step3: `You'll be on your way to an exciting career in tech as part of ${schoolName}'s powerful network.`,
 }
 
-export const netlifyFormName = "framinghamstate_contact"
+export const netlifyFormName = "stjosephs_contact"
 
 export const GATracking = "UA-68312423-1"
 
 export const hubspotFormId = "5d08fd0e-2850-4b57-b4ae-0ec8bb37ad9f" // create Hubspot form, get form id after publishing
 
-export const selectAProgram = "select_a_framinghamstate_program" // update school name to match form field on Hubspot, *** change to "program_name" if only one program ***"
+export const selectAProgram = "select_a_stjosephs_program" // update school name to match form field on Hubspot, *** change to "program_name" if only one program ***"
 
 // ***** END GENERAL SCHOOL INFO *****
 
 // ***** BEGIN LOAN APP AND CALC INFO *****
 
-export const defaultLoanAmount = 9995
-export const placeholder = "$9,995"
+export const defaultLoanAmount = 9495
+export const placeholder = "$9,495"
 export const interestRates = {
   ir36: 8.99,
   ir60: 10.99,
@@ -152,7 +146,7 @@ export const programLoanInfo = [
     url: "https://my.skills.fund/application?lenderCode=LENDERCODE1",
     loanInfo: {
       // match loanInfo in first metro below
-      maxLoanAmt: 9995,
+      maxLoanAmt: 9495,
       loanTerm36: true,
       loanTerm60: true,
       "0": {
@@ -176,7 +170,7 @@ export const programLoanInfo = [
         location: "Metro 1",
         loanInfo: {
           // // match loanInfo to Program 1 above
-          maxLoanAmt: 9995,
+          maxLoanAmt: 9495,
           loanTerm36: true,
           loanTerm60: true,
           "0": {
@@ -225,7 +219,7 @@ export const programLoanInfo = [
     url: "https://my.skills.fund/application?lenderCode=LENDERCODE2",
     loanInfo: {
       // match loanInfo in first metro below
-      maxLoanAmt: 9995,
+      maxLoanAmt: 9495,
       loanTerm36: true,
       loanTerm60: true,
       "0": {
@@ -247,7 +241,7 @@ export const programLoanInfo = [
       {
         location: "Metro 1",
         loanInfo: {
-          maxLoanAmt: 9995,
+          maxLoanAmt: 9495,
           loanTerm36: true,
           loanTerm60: true,
           "0": {
@@ -278,89 +272,11 @@ export const programLoanInfo = [
       },
     ],
   },
-  {
-    name: "Clinical Trial Management",
-    url: "https://my.skills.fund/application?lenderCode=LENDERCODE3",
-    loanInfo: {
-      // match loanInfo in first metro below
-      maxLoanAmt: 9995,
-      loanTerm36: true,
-      loanTerm60: true,
-      "0": {
-        // interest-only
-        k: 6,
-        apr36: 11.59,
-        apr60: 12.84,
-      },
-      "1": {
-        apr36: 12.36,
-        apr60: 13.14,
-      },
-    },
-    defaultLoanType: "0", // leave at 0 for interest-only, set to 1 for immediate repayment
-    showMetros: false,
-    showLoanTypes: true,
-    locations: ["Metro A", "Metro B", "Metro C"],
-    metros: [
-      {
-        location: "Metro A",
-        loanInfo: {
-          maxLoanAmt: 9995,
-          loanTerm36: true,
-          loanTerm60: true,
-          "0": {
-            // interest-only
-            k: 6,
-            apr36: 11.59,
-            apr60: 12.84,
-          },
-          "1": {
-            apr36: 12.36,
-            apr60: 13.14,
-          },
-        },
-      },
-      {
-        location: "Metro B",
-        loanInfo: {
-          maxLoanAmt: 15545,
-          loanTerm36: true,
-          loanTerm60: true,
-          "0": {
-            k: 5,
-            apr36: 11.16,
-            apr60: 12.51,
-          },
-          "1": {
-            apr36: 11.25,
-            apr60: 12.55,
-          },
-        },
-      },
-      {
-        location: "Metro C",
-        loanInfo: {
-          maxLoanAmt: 20545,
-          loanTerm36: true,
-          loanTerm60: true,
-          "0": {
-            k: 5,
-            apr36: 11.16,
-            apr60: 12.51,
-          },
-          "1": {
-            apr36: 11.25,
-            apr60: 12.55,
-          },
-        },
-      },
-    ],
-  },
 ]
 
 // ***** BEGIN LOAN CALC TEXT INFO *****
 export const programMaxText =
-  "Choose the loan amount that works best for you. Borrow up to $9,995 in tuition for each of Framingham State University's programs."
+  "Choose the loan amount that works best for you. Borrow up to $9,995 in tuition for each of St. Joseph College's programs."
 
 export const paymentTable = {
   headers: ["Program", "Tuition", "Cost of Living", "Max Total"],
