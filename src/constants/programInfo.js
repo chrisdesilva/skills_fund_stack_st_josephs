@@ -100,7 +100,7 @@ export const schoolURL = "https://www.SCHOOLWEBSITE.com/" // update with url of 
 
 export const skfURL = "https://stjosephs.skills.fund" // update with Skills Fund url
 
-export const headline = "Learn to Code at St. Joseph's College" // update headline as appropriate
+export const headline = "Learn New Skills at St. Joseph's College" // update headline as appropriate
 
 export const leadContent = {
   header: "Your last step on the path toward changing your career",
