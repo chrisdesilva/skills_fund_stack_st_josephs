@@ -94,13 +94,13 @@ export const faq = {
 
 export const schoolLogo = logo // go to header.js if height needs adjustment
 
-export const schoolName = "St. Joseph's College"
+export const schoolName = "St. Joseph's College of Maine"
 
 export const schoolURL = "https://www.SCHOOLWEBSITE.com/" // update with url of school's website
 
 export const skfURL = "https://stjosephs.skills.fund" // update with Skills Fund url
 
-export const headline = "Learn New Skills at St. Joseph's College" // update headline as appropriate
+export const headline = "Learn New Skills at St. Joseph's College of Maine" // update headline as appropriate
 
 export const leadContent = {
   header: "Your last step on the path toward changing your career",
