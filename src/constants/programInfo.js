@@ -145,6 +145,12 @@ export const faq = {
       col: false,
       colAmount: "$6,000",
     },
+    {
+      programName: "Coding Certificate Bootcamp",
+      maxAmount: "$9,995",
+      col: false,
+      colAmount: "$6,000",
+    },
   ],
 }
 
@@ -278,6 +284,65 @@ export const programLoanInfo = [
   {
     name: "Data Science & Analytics",
     url: "https://my.skills.fund/application?lenderCode=SFSESJCMDSA20",
+    loanInfo: {
+      // match loanInfo in first metro below
+      maxLoanAmt: 9495,
+      loanTerm36: true,
+      loanTerm60: true,
+      "Interest Only": {
+        // interest-only
+        k: 7,
+        apr36: 11.5,
+        apr60: 12.8,
+      },
+      "Immediate Repayment": {
+        apr36: 12.36,
+        apr60: 13.14,
+      },
+    },
+    defaultLoanType: "Interest Only", // leave at 0 for interest-only, set to 1 for immediate repayment
+    showMetros: false,
+    showLoanTypes: true,
+    loanTypes: ["Interest Only", "Immediate Repayment"],
+    locations: ["Metro 1", "Metro 2"],
+    metros: [
+      {
+        location: "Metro 1",
+        loanInfo: {
+          maxLoanAmt: 9495,
+          loanTerm36: true,
+          loanTerm60: true,
+          "Interest Only": {
+            // interest-only
+            k: 7,
+            apr36: 11.5,
+            apr60: 12.8,
+          },
+          "Immediate Repayment": {
+            apr36: 12.36,
+            apr60: 13.14,
+          },
+        },
+      },
+      {
+        location: "Metro 2",
+        loanInfo: {
+          maxLoanAmt: 15545,
+          loanTerm36: true,
+          loanTerm60: true,
+          "Interest Only": {
+            k: 5,
+            apr36: 11.16,
+            apr60: 12.51,
+          },
+          "Immediate Repayment": null,
+        },
+      },
+    ],
+  },
+  {
+    name: "Coding Certificate Bootcamp",
+    url: "https://my.skills.fund/application?lenderCode=SKFSJUCCB20",
     loanInfo: {
       // match loanInfo in first metro below
       maxLoanAmt: 9495,
